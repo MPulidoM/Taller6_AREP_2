@@ -1,5 +1,5 @@
 
-# Taller 6: TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
+# Taller 6: TALLER DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
 
 En este laboratorio, se aprenderá a crear y desplegar una aplicación web en AWS EC2 utilizando Docker y un servicio REST con balanceo de cargas Round Robin. La aplicación web tendrá un cliente web y un servicio REST que recibirá mensajes y los almacenará en una base de datos MongoDB. El servicio REST implementará un algoritmo de balanceo de cargas Round Robin, delegando el procesamiento de los mensajes y el retorno de las respuestas a cada una de las instancias del servicio LogService. Al final del laboratorio, se tendrá una aplicación web funcional desplegada en AWS EC2 utilizando Docker y un servicio REST con balanceo de cargas Round Robin.
 
@@ -150,12 +150,20 @@ http://localhost:4567/formulario.html
 
 ![image](https://github.com/MPulidoM/Taller6_AREP_2/assets/118181543/91050a47-328f-4163-8461-1efd29516463)
 
-
+- Prueba del Despliegue:
+  [VIDEO DESPLIEGUE AWS](https://youtu.be/QtokbNk622A)
+  
 
 ## Autores
 
 * **Mariana Pulido Moreno** - *Arep 101* - [MPulidoM](https://github.com/MPulidoM)
 
+## Construido con
+
+* [Maven](https://maven.apache.org/) - Gestión de dependencias
+* [Java](https://www.java.com/es/) - Lenguaje Utilizado
+* [GitHub](https://git-scm.com/) - Control de Versiones
+* [Docker](https://www.docker.com/) - Contenedor 
 
 
 
