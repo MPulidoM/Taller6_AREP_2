@@ -81,11 +81,11 @@ El diseño del proyecto involucra dos componentes separados, Round Robin y Servi
 
 ## Instalando
 
-Para ver el codigo fuente del proyecto e realiza lo siguiente:
+Para ver el codigo fuente del proyecto se realiza lo siguiente:
 ```
 git clone https://github.com/MPulidoM/Taller6_AREP_2.git
 ```
-Se accede al directorio deñ proyecto:
+Se accede al directorio del proyecto:
 ```
 cd Taller6_AREP_2
 ```
@@ -106,6 +106,7 @@ docker build --tag service .
 docker build --tag round .
 ```
 - En el caso de lo de **Docker Hub**
+-->[Repositorio Docker Hub](https://hub.docker.com/repository/docker/mariana360/taller6bono/general)
 
 ```
 docker pull mariana360/taller6bono:roundrobin
