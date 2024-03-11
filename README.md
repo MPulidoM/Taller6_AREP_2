@@ -1,5 +1,5 @@
 
-# Taller 6: TALLER DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
+# Taller 6: PATRONE ARQUITECTURALES
 
 En este laboratorio, se aprenderá a crear y desplegar una aplicación web en AWS EC2 utilizando Docker y un servicio REST con balanceo de cargas Round Robin. La aplicación web tendrá un cliente web y un servicio REST que recibirá mensajes y los almacenará en una base de datos MongoDB. El servicio REST implementará un algoritmo de balanceo de cargas Round Robin, delegando el procesamiento de los mensajes y el retorno de las respuestas a cada una de las instancias del servicio LogService. Al final del laboratorio, se tendrá una aplicación web funcional desplegada en AWS EC2 utilizando Docker y un servicio REST con balanceo de cargas Round Robin.
 
